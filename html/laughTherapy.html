@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/laugh.css" />
     <link
       rel="stylesheet"
-      text="text/CSS"
+      type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -437,8 +437,12 @@
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
+      if (slides.length > 0) {
+        slides[slideIndex-1].style.display = "block";
+      }
+      if (dots.length > 0) {
+        dots[slideIndex-1].className += " active";
+      }
     }
     </script>
     <script>
@@ -464,7 +468,6 @@
       };
 
       backTopElement.addEventListener("click", backTop);
-      ham.addEventListener("click", toggleMenu);
   </script>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script>
