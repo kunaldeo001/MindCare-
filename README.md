@@ -1,6 +1,6 @@
 
 
-## 📃 Description 
+### 📃 Description 
 "Welcome to our food delivery website: FoodFetch! Here, you'll find a variety of tools and resources to help you find and order the best food in your city. Our goal is to provide you with a one-stop-shop for all of your food needs. Whether you're looking for a quick break during a hectic workday, or a longer practice to unwind at night, we've got you covered."
 
 ## 🕊 Our Tagline 
