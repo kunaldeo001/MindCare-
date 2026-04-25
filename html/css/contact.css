@@ -9,7 +9,7 @@
     width: 100%;
     height: -webkit-fill-available;
     position: fixed;
-    background: #fff url(/images/Spin-Preloader-1.gif) no-repeat center;
+    background: #fff url(../../images/Spin-Preloader-1.gif) no-repeat center;
     z-index: 9999999;
 }
 .header {

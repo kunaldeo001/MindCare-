@@ -36,7 +36,7 @@ function toggleAcc() {
   );
 
   // toggle active class on current item
-  if (this.classList != "accordion__item--active") {
+  if (!this.classList.contains("accordion__item--active")) {
     this.classList.toggle("accordion__item--active");
   }
 }
