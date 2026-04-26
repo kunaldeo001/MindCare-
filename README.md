@@ -1,10 +1,10 @@
 
 
 ### 📃 Description 
-"Welcome to our food delivery website: FoodFetch! Here, you'll find a variety of tools and resources to help you find and order the best food in your city. Our goal is to provide you with a one-stop-shop for all of your food needs. Whether you're looking for a quick break during a hectic workday, or a longer practice to unwind at night, we've got you covered."
+"Welcome to MindCare! Here, you'll find a variety of tools and resources to help you manage stress and improve your mental well-being. Our goal is to provide you with a one-stop-shop for all of your mental health needs. Whether you're looking for a quick break during a hectic workday, or a longer practice to unwind at night, we've got you covered."
 
 ## 🕊 Our Tagline 
-The one-step solution to get delicious food.
+The one-step solution to get relief from stress.
 Live a happy life.
 
 ## 📝 Table of Contents
@@ -15,13 +15,19 @@ Live a happy life.
 
 ## 💼 Our Services <a name = "services"></a>
 - **Audio Therapy:**
-  Relaxing sounds to enjoy while eating. 
+  Relaxing sounds and music to enlighten your mood. 
 - **Reading Therapy:**
-  Inspirational quotes and food blogs.
+  Motivational quotes and books to change your mood.
 - **Yoga Therapy:**
-  Health tips and post-meal yoga.
+  Postures and breathing exercises for mental and physical health.
+- **Laughing Therapy:**
+  Humor and laughter exercises to refresh your mind.
+- **Talking Therapy:**
+  Dealing with negative feelings through conversation.
+- **Spiritual Therapy:**
+  Accessing belief systems to explore inner peace.
 - **Consult A Doctor:**
-  FoodFetch provides you with a list of experienced professionals for health advice. 
+  Connect with experienced professionals for expert health advice. 
 
 ## Our Logo <a name = "logo"></a>
 <img src="./logo.png" width=140px height=110px alt="logo">
