@@ -15,11 +15,11 @@ export function Navbar() {
   const { cart, totalItems, totalPrice, updateQuantity } = useCart();
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <nav className="sticky top-0 z-50 w-full border-b border-white/20 bg-white/10 backdrop-blur-xl bg-gradient-to-r from-primary/10 to-secondary/10">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-8">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="h-8 w-8 rounded bg-primary p-1.5 text-primary-foreground flex items-center justify-center">
+          <Link href="/" className="flex items-center gap-2 transition-colors duration-200 hover:text-primary">
+            <div className="h-8 w-8 rounded-full bg-primary/20 p-1.5 text-primary-foreground flex items-center justify-center">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="h-full w-full"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
             </div>
             <span className="text-xl font-bold text-primary tracking-tight">FoodFetch</span>
@@ -53,7 +53,7 @@ export function Navbar() {
               <Button variant="ghost" className="relative h-10 w-10 p-0">
                 <ShoppingCart className="h-5 w-5" />
                 {totalItems > 0 && (
-                  <Badge className="absolute -right-1 -top-1 h-5 w-5 justify-center bg-accent text-accent-foreground p-0 text-[10px]">
+                  <Badge className="absolute -right-1 -top-1 h-5 w-5 justify-center bg-white/20 backdrop-blur-sm border border-white/30 text-primary-foreground p-0 text-[10px]">
                     {totalItems}
                   </Badge>
                 )}
