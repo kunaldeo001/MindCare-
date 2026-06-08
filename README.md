@@ -19,7 +19,7 @@ A modern, high-performance food ordering platform built with Next.js, React, and
 - **AI/ML**: Genkit + Google Gemini 2.5
 - **Icons**: Lucide React
 
-#### Getting Started
+### Getting Started
 
 1. Clone the repository.
 2. Install dependencies: `npm install`.
