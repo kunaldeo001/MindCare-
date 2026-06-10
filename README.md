@@ -11,7 +11,7 @@ A modern, high-performance food ordering platform built with Next.js, React, and
 - **Cart & Checkout**: Seamless ordering experience with multiple payment options (Card, Cash on Delivery).
 - **Dark Mode**: Fully supported dark and light themes for late-night cravings.
 
-## Tech Stack
+### Tech Stack
 
 - **Framework**: Next.js 15 (App Router)
 - **Styling**: Tailwind CSS
