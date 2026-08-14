@@ -26,4 +26,4 @@ A modern, high-performance food ordering platform built with Next.js, React, and
 3. Set up your `.env` with `GEMINI_API_KEY`.
 4. Run the development server: `npm run dev`.
 
-Created by **Kunal Deo**.
+##### Created by **Kunal Deo**.
